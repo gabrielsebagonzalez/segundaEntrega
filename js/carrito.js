@@ -82,5 +82,5 @@ function carritoSeleccionados() {
         }
     }
 
+    document.getElementById("eliminar_carrito").addEventListener("click", eliminarCarrito);
 }
-document.getElementById("eliminar_carrito").addEventListener("click", eliminarCarrito);
