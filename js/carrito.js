@@ -4,7 +4,7 @@ function buscarProducto(id) {
 }
 
 function cargarProductosCarrito() {
-    if(localStorage.getItem("carrito")) {
+     if(localStorage.getItem("carrito")) {
         return JSON.parse(localStorage.getItem("carrito"));
     }
     return [];
